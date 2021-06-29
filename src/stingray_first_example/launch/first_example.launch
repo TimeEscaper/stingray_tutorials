@@ -1,0 +1,12 @@
+<launch>
+
+    <include file="$(find stingray_launch)/launch/stingray_common.launch">
+        <arg name="simulation" default="true" />
+        <arg name="hardware_connection" default="true" />
+        <arg name="delay_after_init" value="1000" />
+        <arg name="missions_module" value="stingray_first_example.first_mission_fsm" />
+        <arg name="missions_class"  value="FirstMissionsFactory" />
+        <arg name="missions_enabled" value="true" />
+    </include>
+
+</launch>

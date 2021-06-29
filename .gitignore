@@ -1,3 +1,38 @@
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ROS
 devel/
 logs/
 build/
@@ -49,3 +84,32 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+
+# JetBrains
+
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+.idea/**/contentModel.xml
+
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+/**/.idea/**
+/**/cmake-build-debug/**
+/**/cmake-build-debug-remote/**
+
+/**/.idea/
+/**/cmake-build-debug/
+
+# Visual Studio Code
+/.vscode
